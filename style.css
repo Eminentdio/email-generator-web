@@ -5,7 +5,7 @@
 }
 
 body{
-    background: linear-gradient(rgba(0, 0, 0, 0.19), rgb(13, 48, 201)), url('IMG_20220424_044956.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.19), rgb(13, 48, 201)), url('./IMG_20220424_044956.jpg');
     background-position: center;
     background-size: contain;
     background-attachment: fixed;
