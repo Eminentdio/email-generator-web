@@ -93,7 +93,7 @@ button:hover{
     .ega-container{
         max-width: 100%;
         max-height: 90vh;
-        margin-top: 30%;
+        margin-top: 20%;
         overflow: hidden;
     }
     h1{
@@ -114,6 +114,7 @@ button:hover{
         width: 100%;
         font-size: 12px;
         height: auto;
+        padding: 12px;
     }
     #response-container{
         font-size: 12px;
