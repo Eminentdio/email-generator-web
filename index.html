@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EGA</title>
+</head>
+<body>
+    <div class="ega-container">
+        <h1>Email Generator App</h1>
+        <h3>Generate your unique email address by simply putting names</h3>
+        <form action="">
+            <label for="first-name">
+                First Name: <br><br>
+                <input type="text" id="first" name="first-name" placeholder="Enter your first name" size="15" maxlength="20" required>
+            </label> <br><br>
+            <label for="last-name">
+                Last Name: <br><br>
+                <input type="text" id="last" name="last-name" placeholder="Enter your last name" size="15" maxlength="20" required>
+            </label> <br><br>
+            <button type="submit" onclick="emailGenerator(this.form);">Generate Email</button>
+        </form>
+    </div>
+    <p id="response-container"></p>
+
+    <script src="index.js"></script>
+</body>
+</html>
