@@ -112,6 +112,8 @@ button:hover{
     }
     button{
         width: 100%;
+        font-size: 12px;
+        height: auto;
     }
     #response-container{
         font-size: 12px;
